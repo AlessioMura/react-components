@@ -7,7 +7,7 @@
 
 
 body {
-  font-family:'sans-serif';
+  font-family: sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -24,6 +24,12 @@ main{
 }
 
 footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 0 5rem;
+  color: white;
   background-color: #333333;
+  height: 7rem;
 }

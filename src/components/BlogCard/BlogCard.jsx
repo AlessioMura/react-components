@@ -1,4 +1,5 @@
 import style from './BlogCard.module.css'
+import Button from '../Button/Button'
 
 export default function BlogCard() {
     return (
@@ -8,7 +9,7 @@ export default function BlogCard() {
             <div className={style.content}>
             <h2>Titolo del Post</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore distinctio facere reiciendis sapiente error temporibus nobis illum, officia libero facilis saepe atque neque, soluta ut minima voluptatem recusandae amet!</p>
-            <button>LEGGI DI PIU</button>
+            <Button />
             </div>
         </div>
 
