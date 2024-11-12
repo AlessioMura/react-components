@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #e5e5e5; */
+}
+
+
+body {
+  font-family:'sans-serif';
+  background-color: #e5e5e5;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+footer{
+  text-align: center;
+  background-color: #333333;
+}
