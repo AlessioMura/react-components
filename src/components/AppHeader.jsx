@@ -1,5 +1,7 @@
 export default function AppHeader() {
     return (
-        <header>header</header>
+        <header>
+            <h1>Il mio blog</h1>
+        </header>
     )
 }
